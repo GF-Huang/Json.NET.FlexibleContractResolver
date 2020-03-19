@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>GFHuang</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A PropertyMappingContractResolver enables Json.NET to work with third-party classes and without using JsonProperty.
+
+一个 PropertyMappingContractResolver 可以使 Json.NET 与第三方类协同工作而无需使用 JsonProperty。</Description>
+    <RepositoryUrl>https://github.com/GF-Huang/Json.NET.PropertyMapping.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/GF-Huang/Json.NET.PropertyMapping.git</PackageProjectUrl>
+    <PackageTags>Json.NET,ContractResolver,PropertyMapping</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
