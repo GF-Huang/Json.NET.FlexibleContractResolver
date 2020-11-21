@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>GF-Huang</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Json.NET.FlexibleContractResolver</PackageId>
+    <Product>Json.NET.FlexibleContractResolver</Product>
+    <PackageProjectUrl>https://github.com/GF-Huang/Json.NET.FlexibleContractResolver.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GF-Huang/Json.NET.FlexibleContractResolver.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Json Json.NET</PackageTags>
+    <Description>A ContractResolver enables Json.NET (Newtonsoft.Json) to work with third-party classes and without using JsonProperty. You can configuration which property to ignore or custom name mapping easily.
+
+</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

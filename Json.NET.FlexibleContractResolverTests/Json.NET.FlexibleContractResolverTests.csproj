@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Json.NET.PropertyMapping\Json.NET.PropertyMapping.csproj" />
+    <ProjectReference Include="..\Json.NET.FlexibleContractResolver\Json.NET.ContractResolver.csproj" />
   </ItemGroup>
 
 </Project>
